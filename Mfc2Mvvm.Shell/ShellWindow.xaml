@@ -1,7 +1,7 @@
-﻿<Controls:MetroWindow x:Class="Mfc2Mvvm.Shell.ShellWindow"
+﻿<controls:MetroWindow x:Class="Mfc2Mvvm.Shell.ShellWindow"
                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
                       Title="MFC2MVVM"
                       Width="480"
                       Height="640"
@@ -18,9 +18,10 @@
     </Window.Resources>
     <DockPanel>
         <TabControl>
-            <TabItem Header="Start">
-                
-            </TabItem>
+            <TabItem Header="Start" />
+            <TabItem Header="Preview" />
+            <TabItem Header="Export" />
+            <TabItem Header="Output" />
         </TabControl>
     </DockPanel>
-</Controls:MetroWindow>
+</controls:MetroWindow>

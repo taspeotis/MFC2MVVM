@@ -16,6 +16,10 @@ namespace Mfc2Mvvm.Shell
             var assemblyCatalog = new AssemblyCatalog(assembly);
 
             AggregateCatalog.Catalogs.Add(assemblyCatalog);
+
+            var directoryCatalog = new DirectoryCatalog(".", "Mfc2Mvvm.*.dll");
+
+            AggregateCatalog.Catalogs.Add(directoryCatalog);
         }
 
         protected override DependencyObject CreateShell()

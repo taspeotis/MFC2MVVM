@@ -6,11 +6,11 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Mfc2Mvvm.Shell")]
+[assembly: AssemblyTitle("Mfc2Mvvm.Module.Dialog2Wpf")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Mfc2Mvvm.Shell")]
+[assembly: AssemblyProduct("Mfc2Mvvm.Module.Dialog2Wpf")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
