@@ -17,7 +17,7 @@ namespace Mfc2Mvvm.Shell
 
             AggregateCatalog.Catalogs.Add(assemblyCatalog);
 
-            var directoryCatalog = new DirectoryCatalog(".", "Mfc2Mvvm.*.dll");
+            var directoryCatalog = new DirectoryCatalog(".", "Mfc2Mvvm*.dll");
 
             AggregateCatalog.Catalogs.Add(directoryCatalog);
         }

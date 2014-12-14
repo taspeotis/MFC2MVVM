@@ -113,6 +113,10 @@
       <Project>{b4f5f56c-9abc-4189-bbe7-fa3f1268031b}</Project>
       <Name>Mfc2Mvvm.Module.Dialog2Wpf</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Mfc2Mvvm\Mfc2Mvvm.csproj">
+      <Project>{6dd01cf5-133a-4453-8022-a2be8066d64a}</Project>
+      <Name>Mfc2Mvvm</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

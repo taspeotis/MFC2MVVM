@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mfc2Mvvm.Shell", "Mfc2Mvvm.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mfc2Mvvm.Module.Dialog2Wpf", "Mfc2Mvvm.Module.Dialog2Wpf\Mfc2Mvvm.Module.Dialog2Wpf.csproj", "{B4F5F56C-9ABC-4189-BBE7-FA3F1268031B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mfc2Mvvm", "Mfc2Mvvm\Mfc2Mvvm.csproj", "{6DD01CF5-133A-4453-8022-A2BE8066D64A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B4F5F56C-9ABC-4189-BBE7-FA3F1268031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F5F56C-9ABC-4189-BBE7-FA3F1268031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F5F56C-9ABC-4189-BBE7-FA3F1268031B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD01CF5-133A-4453-8022-A2BE8066D64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD01CF5-133A-4453-8022-A2BE8066D64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD01CF5-133A-4453-8022-A2BE8066D64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD01CF5-133A-4453-8022-A2BE8066D64A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
